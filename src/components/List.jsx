@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 
 const url = 'https://course-api.com/react-tours-project'
 
-const GetData = ({}) => {
+const GetData = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [isError, setIsError] = useState(false)
     const [tours, setTours] = useState('default tours')
